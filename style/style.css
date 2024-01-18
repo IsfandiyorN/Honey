@@ -1,0 +1,459 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container{
+    max-width: 1500px;
+    width: 100%;
+    padding: 0 auto;
+    margin: 0 15px;
+}
+
+
+.nav{
+    width: 1500px;
+}
+
+
+.nav__info{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header__logo{
+    margin: 30px auto 30px 227px ;
+}
+
+.nav__list{
+    display: flex;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.nav__link{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Kodchasan';
+    margin-left: 40px;
+    margin-top: 38px;
+    margin-bottom: 39px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.nav__link:hover{
+    transition: 0.3s;
+    color: #f48506;
+    background-color: transparent;
+}
+
+.bg{
+
+    background-image: url(../images/Background.png);
+    border-radius: 20px;
+    height: 865px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 130px;
+}
+
+
+.finger{
+    font-family: 'Kodchasan';
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 130px;
+    flex-direction: column;
+    padding-top: 182px;
+    padding-left: 177px;
+}
+
+.licking{
+    font-family: 'Kodchasan';
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 130px;
+    margin-top: 10px;
+    margin-left: 95px;
+    flex-direction: column;
+    padding-left: 275px;
+}
+
+.honey{
+    font-family: 'Kodchasan';
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 130px;
+    margin-top: 10px;
+    flex-direction: column;
+    padding-left: 177px;
+    padding-bottom: 70px;
+}
+
+.a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buy__now{
+    font-family: 'Kodchasan';
+    margin-left: 227px;
+    padding: 18px 50px;
+    transition: 0.5s;
+    color: white; 
+    background-color: black;
+    border: 2px black solid;
+      
+}
+
+.buy__now:hover{
+    transition: 0.5s;
+    color: black;
+    background-color: transparent;
+    border: 2px black solid;
+}
+
+.learn__more{
+    font-family: 'Kodchasan';
+    margin-left: 30px;
+    padding: 18px 50px;
+    transition: 0.5s;
+    color: #000000;
+    border: 2px black solid;
+}
+
+.learn__more:hover{
+    transition: 0.5s;
+    background-color: transparent;
+    color: white;
+}
+
+.partners{
+    font-family: 'Kodchasan';
+    font-weight: 700;
+    font-size: 45px;
+    color: #000000;
+}
+
+/* Intro */
+
+.introduction{
+    max-width: 1176px;
+    margin: 130px 0 0 228px;
+}
+
+.partners{
+    font-weight: 700;
+    font-size: 45px;
+    color: #000000;
+}
+
+.introduction__link{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 130px;
+}
+
+/*Main start*/
+
+.main{
+    display: flex;
+    margin-top: 131px;
+}
+
+.main__h1{
+    padding: 205px 0 30px 0;
+    margin-bottom: 30px;
+    font-family: 'Kodchasan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 145%;
+    color: #000000;  
+}
+
+.main__p{
+    font-family: 'Kodchasan';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    width: 516px;
+    height: 105px;
+    line-height: 160%;
+    color: #000000;
+}
+
+.main__link{
+    font-family: 'Kodchasan';
+    color: black;
+    transition: 0.5s;
+    border: 2px solid #E58311;
+    padding: 15px 40px;
+}
+
+.main__link:hover{
+    transition: 0.5s;
+    background-color: #E58311;
+    color: white;
+}
+
+.main__link-div{
+    margin-top: 50px;
+    width: 184px;
+    height: 59px;
+}
+
+.main__full-second{
+    display: flex;
+    margin-top: 102px;
+}
+
+.main__second{
+    font-family: 'Kodchasan';
+}
+
+.main__h2{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 145%;
+    margin-top: 305px;
+    margin-bottom: 30px;
+}
+
+.main__p2{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 160%;
+    margin-bottom: 50px;
+}
+
+/*main__full-third*/
+
+.main__full-third{
+    width: 1500px;
+    margin-right: 30px;
+    padding-bottom: 44px;
+    margin-bottom: 130px;
+}
+
+.main__third{
+    width: 1250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Kodchasan';
+    margin-left: 120px;
+    margin-bottom: 50px;
+}
+
+.our__product{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 160%;
+}
+
+.see__all{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 160%;
+    color: #E58211;
+}
+
+.see__all:hover{
+    transition: 0.04s;
+    color: #000000;
+}
+
+.our__product1{
+    display: flex;
+    justify-content: space-between;
+    width: 1500px;
+    background-color: #fde9d2;
+    width: 735px;
+    margin-left: 116px;
+}
+
+.eucalyptus__honey{
+    font-family: 'Kodchasan';
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 140%;
+    color: #000000;
+    padding-top: 40px;
+    padding-left: 30px;
+}
+
+.our__product-p1{
+    width: 302px;
+    height: 78px;
+    font-family: 'Kodchasan';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 160%;
+    margin-top: 20px;
+    color: #000000;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.our__product-buy{
+    font-family: 'Kodchasan';
+    border: 2px solid #E58211;
+    color: #E58211;
+    transition: 0.5s;
+    padding: 10px 30px;
+    margin-left: 30px;
+}
+
+.our__product-buy:hover{ 
+    transition: 0.5s;
+    background-color: #E58211;
+    color: white;
+}
+
+.our__product-img1{
+    padding-top: 29px;
+    padding-bottom: 28px;
+}
+
+/*Section fourth*/
+
+.main__section{
+    display: flex;
+}
+
+.main__full-fourth{
+    display: flex;
+    justify-content: space-between;
+    width: 735px;
+    background-color: #fde9d2;
+    margin-left: 30px;
+    margin-right: 116px;
+}
+
+
+.basswood__honey{
+    font-family: 'Kodchasan';
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 140%;
+    padding-left: 30px;
+    padding-top: 40px;
+    color: #000000;
+}
+
+.our__product-p2{
+    font-family: 'Kodchasan';
+    width: 380px;
+    height: 78px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 160%;
+    padding-top: 30px;
+    padding-left: 30px;
+    margin-bottom: 60px;
+    color: #000000;
+}
+
+.our__product-buy2{
+    font-family: 'Kodchasan';
+    border: 2px solid #E58211;
+    color: #E58211;
+    transition: 0.5s;
+    padding: 10px 30px;
+    margin-left: 30px;
+}
+
+.our__product-buy2:hover{ 
+    transition: 0.5s;
+    background-color: #E58211;
+    color: white;
+}
+
+.our__product-img2{
+    width: 103px;
+    height: 219px;
+    padding-top: 43px;
+    margin-right: 40px;
+}
+
+/*Footer*/
+
+.footer{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(76.02deg, #FF9D2D 1.66%, #FFD877 93.21%);
+    max-width: 1600px;
+    height: 137px;
+}
+
+.footer__full{
+    display: flex;
+    align-items: center;
+}
+
+.footer__lp{
+    font-family: 'Kodchasan';
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.footer__logo{
+    padding-top: 54px;
+    padding-right: 50px;
+    padding-bottom: 54px;
+    padding-left: 229px;
+    
+}
+
+
+.footer__p1{
+    font-family: 'Kodchasan';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 160%;
+    width: 269px;
+    height: 47px;
+    opacity: 0.7;
+}
+
+.footer__icons{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 88px;
+}
+
+.facebook{
+    margin-right: 40px;
+}
+
+.twitter{
+    margin-right: 40px;
+}
+
+.google{
+    margin-right: 40px;
+}
+
+.pinterest{
+    margin-right: 173px;
+}
+
+.googe__play{
+    margin-right: 20px;
+}
